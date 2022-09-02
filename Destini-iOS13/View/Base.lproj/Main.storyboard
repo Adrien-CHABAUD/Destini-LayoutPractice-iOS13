@@ -53,6 +53,9 @@
                                         <state key="normal" title="Choice 2" backgroundImage="choice2Background">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
+                                        <connections>
+                                            <action selector="choiceMade:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JFu-YL-1Lv"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
@@ -73,7 +76,7 @@
                     <connections>
                         <outlet property="choice1Button" destination="tIh-mC-2uj" id="8dp-gW-dzY"/>
                         <outlet property="choice2Button" destination="aaO-VQ-qlG" id="nNd-mz-kkS"/>
-                        <outlet property="stroyLabel" destination="mQ9-xF-f3a" id="H2S-Xe-a2g"/>
+                        <outlet property="storyLabel" destination="mQ9-xF-f3a" id="H2S-Xe-a2g"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
