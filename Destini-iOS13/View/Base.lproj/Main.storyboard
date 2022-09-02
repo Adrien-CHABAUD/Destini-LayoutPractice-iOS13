@@ -18,7 +18,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="NmU-vg-dtc">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="-2" y="0.0" width="416" height="896"/>
                             </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8Ld-hF-oJd">
                                 <rect key="frame" x="20" y="44" width="374" height="818"/>
@@ -60,12 +60,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="NmU-vg-dtc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4LC-3I-Sw6"/>
+                            <constraint firstItem="NmU-vg-dtc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-2" id="4LC-3I-Sw6"/>
                             <constraint firstItem="8Ld-hF-oJd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="C29-XC-WUs"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8Ld-hF-oJd" secondAttribute="trailingMargin" id="NOm-bh-8lp"/>
                             <constraint firstItem="NmU-vg-dtc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="WLS-so-ngj"/>
                             <constraint firstAttribute="leadingMargin" secondItem="8Ld-hF-oJd" secondAttribute="leading" id="Xv0-2S-aHZ"/>
-                            <constraint firstAttribute="bottom" secondItem="NmU-vg-dtc" secondAttribute="bottom" id="bbJ-aW-k78"/>
+                            <constraint firstItem="NmU-vg-dtc" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="bbJ-aW-k78"/>
                             <constraint firstItem="NmU-vg-dtc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fUl-Hz-0Yd"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Ld-hF-oJd" secondAttribute="bottom" id="nia-TO-llH"/>
                         </constraints>
