@@ -17,16 +17,22 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="Lhw-uv-pyh">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="NmU-vg-dtc">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="D4G-3g-m2j">
-                                <rect key="frame" x="0.0" y="694" width="414" height="168"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="8Ld-hF-oJd">
+                                <rect key="frame" x="20" y="44" width="374" height="818"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yqU-Gq-qHZ">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="80"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Story Text" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mQ9-xF-f3a" userLabel="Text Label">
+                                        <rect key="frame" x="0.0" y="0.0" width="374" height="578"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tIh-mC-2uj" userLabel="Choice 1 Button">
+                                        <rect key="frame" x="0.0" y="598" width="374" height="100"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="80" id="yEc-bP-mu9"/>
+                                            <constraint firstAttribute="height" constant="100" id="vky-rD-bVW"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
@@ -34,8 +40,11 @@
                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         </state>
                                     </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eEa-AI-MLG">
-                                        <rect key="frame" x="0.0" y="88" width="414" height="80"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aaO-VQ-qlG" userLabel="Choice 2 Button">
+                                        <rect key="frame" x="0.0" y="718" width="374" height="100"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="100" id="4zp-ZY-KL9"/>
+                                        </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                         <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
                                         <state key="normal" title="Choice 2" backgroundImage="choice2Background">
@@ -48,13 +57,14 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="D4G-3g-m2j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="38o-Mr-Ope"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="D4G-3g-m2j" secondAttribute="trailing" id="C5C-4A-Rhk"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="D4G-3g-m2j" secondAttribute="bottom" id="Ibt-6o-GVm"/>
-                            <constraint firstItem="Lhw-uv-pyh" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Mai-br-GwQ"/>
-                            <constraint firstItem="Lhw-uv-pyh" firstAttribute="bottom" secondItem="8bC-Xf-vdC" secondAttribute="bottom" id="erY-zV-PuP"/>
-                            <constraint firstAttribute="trailing" secondItem="Lhw-uv-pyh" secondAttribute="trailing" id="iQF-hg-hCn"/>
-                            <constraint firstItem="Lhw-uv-pyh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="xsd-bm-YQn"/>
+                            <constraint firstItem="NmU-vg-dtc" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="4LC-3I-Sw6"/>
+                            <constraint firstItem="8Ld-hF-oJd" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="C29-XC-WUs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Ld-hF-oJd" secondAttribute="trailingMargin" id="NOm-bh-8lp"/>
+                            <constraint firstItem="NmU-vg-dtc" firstAttribute="trailing" secondItem="8bC-Xf-vdC" secondAttribute="trailing" id="WLS-so-ngj"/>
+                            <constraint firstAttribute="leadingMargin" secondItem="8Ld-hF-oJd" secondAttribute="leading" id="Xv0-2S-aHZ"/>
+                            <constraint firstAttribute="bottom" secondItem="NmU-vg-dtc" secondAttribute="bottom" id="bbJ-aW-k78"/>
+                            <constraint firstItem="NmU-vg-dtc" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="fUl-Hz-0Yd"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8Ld-hF-oJd" secondAttribute="bottom" id="nia-TO-llH"/>
                         </constraints>
                     </view>
                 </viewController>
