@@ -1,51 +1,56 @@
+<!--
+  Title: Egg Timer
+  Description: iOS App of an Egg Timer app, made using SWIFT
+  Author: Adrien CHABAUD
+ -->
+ 
+ <img src="/images/Adrien_banner_01.png">
+ 
+ 
+ # Egg Timer ![iOS Badge](https://img.shields.io/badge/iOS-000000?style=for-the-badge&logo=ios&logoColor=white) ![Swift Badge](https://img.shields.io/badge/Swift%20Version-5-orange) 
 
-![App Brewery Banner](Documentation/AppBreweryBanner.png)
+This app has been made as part of the **iOS & Swift - The Complete iOS App Development Bootcamp** on Udemy from **The App Brewery**
 
-#  Destini
+## Table of contents
+* [Goal behind](#goal-behind)
+* [General Info](#general-info)
+* [Learning](#learning-tool)
+* [Technologies](#technologies)
 
-## Our Goal
+## Goal Behind
 
-The goal of this challenge is to get you comfortable with implementing the MVC design pattern and thinking about the state of your app. In addition, you will be reviewing the concept of Swift Structures and using it to separate the Model from the Controller. 
+The goal here was to use once again the MVC design pattern and review concepts of Swift Structures and using them to separate the Model from the Controller.
 
-## What you will create
+## General Info
 
-In this app, you will be creating a “choose your own adventure” game similar to the App Store hit “Life Line” app. The app will tell a story depending on what the user chooses and can be fleshed out and modified to provide an engaging story-telling experience
+This app is a "choose your own adventure" type of game similar to the App Store hit "Life Line" app. The app tells a story depending on what the user chooses.
+
+<p align="center">
+  <img src="/images/screenshot_main_activity.png" width=300 hspace=20><img src="/images/main_activity.gif" width=300 hspace=20>
+</p>
 
 
-## Story Strings
-```
-          Story(
-            title: "Your car has blown a tire on a winding road in the middle of nowhere with no cell phone reception. You decide to hitchhike. A rusty pickup truck rumbles to a stop next to you. A man with a wide brimmed hat with soulless eyes opens the passenger door for you and asks: 'Need a ride, boy?'.",
-            choice1: "I'll hop in. Thanks for the help!", choice1Destination: 2,
-            choice2: "Better ask him if he's a murderer first.", choice2Destination: 1
-        ),
-        Story(
-            title: "He nods slowly, unfazed by the question.",
-            choice1: "At least he's honest. I'll climb in.", choice1Destination: 2,
-            choice2: "Wait, I know how to change a tire.", choice2Destination: 3
-        ),
-        Story(
-            title: "As you begin to drive, the stranger starts talking about his relationship with his mother. He gets angrier and angrier by the minute. He asks you to open the glovebox. Inside you find a bloody knife, two severed fingers, and a cassette tape of Elton John. He reaches for the glove box.",
-            choice1: "I love Elton John! Hand him the cassette tape.", choice1Destination: 5,
-            choice2: "It's him or me! You take the knife and stab him.", choice2Destination: 4
-        ),
-        Story(
-            title: "What? Such a cop out! Did you know traffic accidents are the second leading cause of accidental death for most adult age groups?",
-            choice1: "The", choice1Destination: 0,
-            choice2: "End", choice2Destination: 0
-        ),
-        Story(
-            title: "As you smash through the guardrail and careen towards the jagged rocks below you reflect on the dubious wisdom of stabbing someone while they are driving a car you are in.",
-            choice1: "The", choice1Destination: 0,
-            choice2: "End", choice2Destination: 0
-        ),
-        Story(
-            title: "You bond with the murderer while crooning verses of 'Can you feel the love tonight'. He drops you off at the next town. Before you go he asks you if you know any good places to dump bodies. You reply: 'Try the pier.'",
-            choice1: "The", choice1Destination: 0,
-            choice2: "End", choice2Destination: 0
-        )   
-```
+## Learning Tool
 
->This is a companion project to The App Brewery's Complete App Development Bootcamp, check out the full course at [www.appbrewery.co](https://www.appbrewery.co/)
+As a learning tool, the conception of this app allowed me to do/learn the following:
 
-![End Banner](Documentation/readme-end-banner.png)
+* How to programmatically change UI elements such as Labels and Buttons.
+* What is a design pattern and how is it used in programming.
+* How to use the Model-View-Controller or MVC pattern for app development.
+* Learn about Swift Structures how to instantiate a struct instance.
+* Understand the difference between value types and reference types. 
+* Learn about Swift Classes and creating Objects.
+* Compare Swift Classes with Swift Structs and know when to use which.
+* Learn about Object Oriented Programming.
+* How to refactor code and stay organised.
+
+## Technologies
+
+This project uses:
+* *Xcode: 13.4.1*
+* *Swift: 5.6.1*
+
+<p align="center">
+  <img src="Documentation/readme-end-banner.png">
+</p>
+
